@@ -74,7 +74,9 @@ Copie e cole-o no terminal.
     * [new branch]      main -> main
     Branch 'main' set up to track remote branch 'main' from 'origin'.
 #### ✔️ Instalando as dependências do Node no projeto criado com `$ npm install`.
-repare que nesse momento é criado o diretório `node_modules`.    
+Repare que nesse momento é criado o diretório `node_modules`.
+
+
     luciolemos@dev:~/vscode/my_app$ npm install
 
     added 54 packages, and audited 55 packages in 5s
