@@ -13,7 +13,7 @@ Use o gerador de aplicativos do express para criar rapidamente uma estrutura bá
 - Navegue para dentro de `my_app` com o comando `$ cd my_app`.
 - Instale as dependências do Node, que o projeto necessita com `$ npm install`;  
 - Verificando se há atividade na porta 3000 `$ sudo netstat -nlp | grep :3000`;
-- Interrompendo o processo na porta 3000, caso haja `$ kill 11020`; 
+- Interrompendo o processo na porta 3000, caso haja `$ kill <PID>`; 
 - Carregando o projeto no vscode com `$ code .`;
 - Abrindo o terminal no vscode `Ctrl+J`;
 - Startando a aplicação com `$ DEBUG=myapp:* npm start`. 
