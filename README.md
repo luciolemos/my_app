@@ -97,13 +97,13 @@ Copie e cole-o no terminal.
 
     found 0 vulnerabilities
 
-### Identificando e parando o processo na porta 3000, caso haja:
+### Identificando e parando o processo em execução na porta 3000, caso haja:
 #### ✔️ Localizando o PID (Process ID) escutando na porta 3000 com `$ sudo netstat -nlp | grep :3000`:
     luciolemos@dev:~/vscode/my_app$ sudo netstat -nlp | grep :3000
     [sudo] senha para luciolemos:     
     tcp6       0      0 :::3000                 :::*                    OUÇA       11020/node 
 
-#### ✔️ O ID do processo é o número antes do nome do processo na sexta coluna (11020). Parar o processo com o comando `$ kill 11020`.
+#### ✔️ O ID do processo é o número antes do nome do processo na sexta coluna (11020). Pare o processo com o comando `$ kill 11020`.
     luciolemos@dev:~/nextlevelweek/restful$ kill 11020
 ### Rodando nosso projeto
 #### ✔️ Startando na porta 3000.
