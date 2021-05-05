@@ -52,31 +52,31 @@ Copie e cole-o no terminal.
     git branch -M main
     git remote add origin https://github.com/luciolemos/my_app.git
     git push -u origin main
-#### ✔️ Copiando e colando o bloco de código acima, cada linha será automaticamente executada. 
-Dissecando cada linha do bloco de código gerado por ocasião da criação do repositório remoto.
 
-#### ✔️ Criando o arquivo **README.md** `$ echo "# my_app" >> README.md`.
+#### ✔️ Copie e cole no terminal, o bloco de código acima, gerado por ocasião da criação do repositório remoto, onde cada linha signiifica:
+
+#### ✔️ Cria o arquivo **README.md** `$ echo "# my_app" >> README.md`.
     luciolemos@dev:~/vscode/my_app$ echo "# my_app" >> README.md
-#### ✔️ Iniciando o projeto com `git init`.    
+#### ✔️ Inicia o projeto com `git init`.    
     luciolemos@dev:~/vscode/my_app$ git init
     Initialized empty Git repository in /home/luciolemos/vscode/my_app/.git/
 
-#### ✔️ Adicionando o arquivo **README.md** ao repositório local com `git add README.md`. 
+#### ✔️ Adiciona o arquivo **README.md** ao repositório local com `git add README.md`. 
     luciolemos@dev:~/vscode/my_app$ git add README.md  
 
-#### ✔️ Salvando as alterações feitas no repositório local com `git commit -m "first commit"`.
+#### ✔️ Salva as alterações feitas no repositório local com `git commit -m "first commit"`.
     luciolemos@dev:~/vscode/my_app$ git commit -m "first commit"
     [master (root-commit) f1f005f] first commit
     1 file changed, 1 insertion(+)
     create mode 100644 README.md
 
-#### ✔️ Informando o ramo do projeto onde serão salvas as alterações.
+#### ✔️ Informa o ramo do projeto onde serão salvas as alterações.
     luciolemos@dev:~/vscode/my_app$ git branch -M main
 
-#### ✔️ Informando o camiho dorepositório remoto
+#### ✔️ Informa o camiho dorepositório remoto
     luciolemos@dev:~/vscode/my_app$ git remote add origin https://github.com/luciolemos/my_app.git
 
-#### ✔️ Empurrando (_push_) as alterações para o repositório remoto
+#### ✔️ Empurra (_push_) as alterações para o repositório remoto
     luciolemos@dev:~/vscode/my_app$ git push -u origin main
     Username for 'https://github.com': luciolemos
     Password for 'https://luciolemos@github.com': 
