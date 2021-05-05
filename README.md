@@ -73,7 +73,7 @@ Copie e cole-o no terminal.
 #### ✔️ Informa o ramo do projeto onde serão salvas as alterações.
     luciolemos@dev:~/vscode/my_app$ git branch -M main
 
-#### ✔️ Informa o camiho dorepositório remoto
+#### ✔️ Informa o camiho do repositório remoto
     luciolemos@dev:~/vscode/my_app$ git remote add origin https://github.com/luciolemos/my_app.git
 
 #### ✔️ Empurra (_push_) as alterações para o repositório remoto
@@ -88,8 +88,7 @@ Copie e cole-o no terminal.
     * [new branch]      main -> main
     Branch 'main' set up to track remote branch 'main' from 'origin'.
 
-#### ✔️ Instalando as dependências do Node no projeto criado com `$ npm install`.
-Repare que nesse momento é criado o diretório `node_modules`, na raís do projeto.
+#### ✔️ Instalando as dependências do Node no projeto criado com `$ npm install`. Repare que nesse momento é criado o diretório `node_modules`, na raís do projeto.
 
 
     luciolemos@dev:~/vscode/my_app$ npm install
