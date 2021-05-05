@@ -9,8 +9,8 @@ Use o gerador de aplicativos do express para criar rapidamente uma estrutura bá
 ### Resumo das rotinas que seráo executadas no _bash_:
 - Instale o Node `$ sudo apt-get install nodejs`. O NPM é o Gerenciador de Pacotes do Node (Node Package Manager). Node e NPM são empacotados juntos.
 - Instale o express com o comando `$ npm install express-generator -g`.
-- Crie o diretório da sua aplicação express com `$ express myapp`.
-- Navegue para dentro de `myapp` com o comando `$ cd myapp`.
+- Crie o diretório da sua aplicação express com `$ express my_app`.
+- Navegue para dentro de `my_app` com o comando `$ cd my_app`.
 - Instale as dependências do Node, que o projeto necessita com `$ npm install`;  
 - Verificando se há atividade na porta 3000 `$ sudo netstat -nlp | grep :3000`;
 - Interrompendo o processo na porta 3000, caso haja `$ kill 11020`; 
