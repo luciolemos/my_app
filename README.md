@@ -52,18 +52,32 @@ Copie e cole-o no terminal.
     git branch -M main
     git remote add origin https://github.com/luciolemos/my_app.git
     git push -u origin main
-#### ✔️ Copiando e colando o bloco de código acima, cada linha será automaticamente executada.
-    1. luciolemos@dev:~/vscode/my_app$ echo "# my_app" >> README.md
-    2. luciolemos@dev:~/vscode/my_app$ git init
+#### ✔️ Copiando e colando o bloco de código acima, cada linha será automaticamente executada. 
+Dissecando cada linha do bloco de código gerado por ocasião da criação do repositório remoto.
+
+#### ✔️ Criando o arquivo **README.md** `$ echo "# my_app" >> README.md`.
+    luciolemos@dev:~/vscode/my_app$ echo "# my_app" >> README.md
+#### ✔️ Iniciando o projeto com `git init`.    
+    luciolemos@dev:~/vscode/my_app$ git init
     Initialized empty Git repository in /home/luciolemos/vscode/my_app/.git/
-    3. luciolemos@dev:~/vscode/my_app$ git add README.md
-    4. luciolemos@dev:~/vscode/my_app$ git commit -m "first commit"
+
+#### ✔️ Adicionando o arquivo **README.md** ao repositório local com `git add README.md`. 
+    luciolemos@dev:~/vscode/my_app$ git add README.md  
+
+#### ✔️ Salvando as alterações feitas no repositório local com `git commit -m "first commit"`.
+    luciolemos@dev:~/vscode/my_app$ git commit -m "first commit"
     [master (root-commit) f1f005f] first commit
     1 file changed, 1 insertion(+)
     create mode 100644 README.md
-    5. luciolemos@dev:~/vscode/my_app$ git branch -M main
-    6. luciolemos@dev:~/vscode/my_app$ git remote add origin https://github.com/luciolemos/my_app.git
-    7. luciolemos@dev:~/vscode/my_app$ git push -u origin main
+
+#### ✔️ Informando o ramo do projeto onde serão salvas as alterações.
+    luciolemos@dev:~/vscode/my_app$ git branch -M main
+
+#### ✔️ Informando o camiho dorepositório remoto
+    luciolemos@dev:~/vscode/my_app$ git remote add origin https://github.com/luciolemos/my_app.git
+
+#### ✔️ Empurrando (_push_) as alterações para o repositório remoto
+    luciolemos@dev:~/vscode/my_app$ git push -u origin main
     Username for 'https://github.com': luciolemos
     Password for 'https://luciolemos@github.com': 
     Enumerating objects: 3, done.
@@ -73,6 +87,7 @@ Copie e cole-o no terminal.
     To https://github.com/luciolemos/my_app.git
     * [new branch]      main -> main
     Branch 'main' set up to track remote branch 'main' from 'origin'.
+
 #### ✔️ Instalando as dependências do Node no projeto criado com `$ npm install`.
 Repare que nesse momento é criado o diretório `node_modules`, na raís do projeto.
 
