@@ -42,6 +42,9 @@ A flag `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, q
 #### ✔️ Navegando para dentro do projeto com `$ cd my_app`.
     luciolemos@dev:~/vscode$ cd my_app
 #### ✔️ O bloco de código a seguir será gerado durante a criação do repositório remoto:
+Copie e coleo-o no terminal.
+
+
     echo "# my_app" >> README.md
     git init
     git add README.md
