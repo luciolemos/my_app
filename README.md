@@ -5,7 +5,9 @@
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
 ## Começando com o **EXPRESS** 📌: 
 #### ✔️ Criando o projeto **my_app** com `$ express my_app -e --git`.
-A flg `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, que contém as diretivas de quais arquivos (ou padrões) o git de ignorar. 
+A flag `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, que contém as diretivas de quais arquivos (ou padrões) o git deve ignorar. 
+
+
     luciolemos@dev:~/vscode$ express my_app -e --git
 
     warning: option `--ejs' has been renamed to `--view=ejs'
