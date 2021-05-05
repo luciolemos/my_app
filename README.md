@@ -53,7 +53,7 @@ Copie e cole-o no terminal.
     git remote add origin https://github.com/luciolemos/my_app.git
     git push -u origin main
 
-#### ✔️ Copie e cole no terminal, o bloco de código acima, gerado por ocasião da criação do repositório remoto, onde cada linha signiifica:
+#### ✔️ Copie e cole no terminal, o bloco de código acima, gerado por ocasião da criação do repositório remoto, onde cada linha executada realiza:
 
 #### ✔️ Cria o arquivo **README.md** `$ echo "# my_app" >> README.md`.
     luciolemos@dev:~/vscode/my_app$ echo "# my_app" >> README.md
