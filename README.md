@@ -104,7 +104,7 @@ Copie e cole-o no terminal.
     tcp6       0      0 :::3000                 :::*                    OUÇA       11020/node 
 
 #### ✔️ O ID do processo é o número antes do nome do processo na sexta coluna (11020). Pare o processo com o comando `$ kill 11020`.
-    luciolemos@dev:~/vscode/my_app$ kill 11032
+    luciolemos@dev:~/vscode/my_app$ kill 11020
 ### Rodando nosso projeto
 #### ✔️ Startando na porta 3000.
     luciolemos@dev:~/vscode/my_app$ DEBUG=my-app:* npm start
