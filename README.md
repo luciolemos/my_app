@@ -4,6 +4,21 @@
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucciolemos)](https://twitter.com/lucciolemos)
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
 ## Começando com o **EXPRESS** 📌: 
+Embora existam vários projetos iniciais e boilerplates disponíveis, o Express tem sua própria ferramenta de linha de comando que facilita a inicialização de novos aplicativos, chamada `express-generator`.
+Use o gerador de aplicativos do express para criar rapidamente uma estrutura básica de aplicativo, seguindo os passos abaixo descritos.
+### Resumo das rotinas que seráo executadas no _bash_:
+- Instale o Node `$ sudo apt-get install nodejs`. O NPM é o Gerenciador de Pacotes do Node (Node Package Manager). Node e NPM são empacotados juntos.
+- Instale o express com o comando `$ npm install express-generator -g`.
+- Crie o diretório da sua aplicação express com `$ express myapp`.
+- Navegue para dentro de `myapp` com o comando `$ cd myapp`.
+- Instale as dependências do Node, que o projeto necessita com `$ npm install`;  
+- Verificando se há atividade na porta 3000 `$ sudo netstat -nlp | grep :3000`;
+- Interrompendo o processo na porta 3000, caso haja `$ kill 11020`; 
+- Carregando o projeto no vscode com `$ code .`;
+- Abrindo o terminal no vscode `Ctrl+J`;
+- Startando a aplicação com `$ DEBUG=myapp:* npm start`. 
+- Rodando a aplicação digitando no browser `http://localhost:3000`.
+
 #### ✔️ Criando o projeto `my_app` com `$ express my_app -e --git`.
 A flag `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, que contém as diretivas de quais arquivos (ou padrões) o git deve ignorar. 
 
