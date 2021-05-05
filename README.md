@@ -113,4 +113,6 @@ A flag `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, q
 
     my-app:server Listening on port 3000 +0ms
 
+#### ✔️ Abrindo o diretório corrente no VSCode com `$ code .`: 
+    luciolemos@dev:~/vscode/my_app$ code .
 #### ✔️ Digitando no browser `http://localhost:3000`.
