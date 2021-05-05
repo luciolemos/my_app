@@ -4,7 +4,7 @@
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucciolemos)](https://twitter.com/lucciolemos)
 [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://studio.youtube.com/channel/UCrNM1nr2nw0lSqMD10m6rLw)](#)
 ## Começando com o **EXPRESS** 📌: 
-#### ✔️ Criando o projeto **my_app** com `$ express my_app -e --git`.
+#### ✔️ Criando o projeto `my_app` com `$ express my_app -e --git`.
 A flag `--git` cria na raís do projeto, o arquivo oculto `my_app/.gitignore`, que contém as diretivas de quais arquivos (ou padrões) o git deve ignorar. 
 
 
@@ -74,7 +74,7 @@ Copie e cole-o no terminal.
     * [new branch]      main -> main
     Branch 'main' set up to track remote branch 'main' from 'origin'.
 #### ✔️ Instalando as dependências do Node no projeto criado com `$ npm install`.
-Repare que nesse momento é criado o diretório `node_modules`.
+Repare que nesse momento é criado o diretório `node_modules`, na raís do projeto.
 
 
     luciolemos@dev:~/vscode/my_app$ npm install
